@@ -1,17 +1,11 @@
 "use strict";
 
 var regenerator = require("regenerator")
+var wrapGenerator = require("regenerator/runtime/dev").wrapGenerator
 var recast = require("regenerator/node_modules/recast")
 var esprima = require("regenerator/node_modules/esprima")
 var Syntax = recast.Syntax
-var wrapGenerator = void(0)
 
-try {
-  regenerator.runtime()
-  wrapGenerator = global.wrapGenerator
-} finally {
-  delete global.wrapGenerator
-}
 
 function toSource(f) {
   if (typeof(f) !== "function")
