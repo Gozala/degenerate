@@ -1,4 +1,4 @@
-var test = require("./test")
+var test = require("tape")
 var Generator = require("../")
 
 new function() {
