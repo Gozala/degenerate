@@ -5,7 +5,7 @@
 [![Browser support](https://ci.testling.com/Gozala/degenerator.png)](http://ci.testling.com/Gozala/degenerator)
 
 
-Library lets you create [ES6 generators][] with in the (dis)comfort of ES5 JS environment (like < node@0.11.x) and without syntax sugar. This magic happens at the cost of the syntax transformations at the generator instantiation. You can use this with [task.js][], [co][], [suspend][] or any other Generator-based flow control based library without waiting on your favorite JS environment to enable generators for you!
+Library lets you create [ES6 generators][generators] with in the (dis)comfort of ES5 JS environment (like < node@0.11.x) and without syntax sugar. This magic happens at the cost of the syntax transformations at the generator instantiation. You can use this with [task.js][], [co][], [suspend][] or any other Generator-based flow control based library without waiting on your favorite JS environment to enable generators for you!
 
 ## API
 
