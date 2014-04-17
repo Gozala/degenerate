@@ -1,7 +1,7 @@
 {
   "name": "degenerator",
   "id": "degenerator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Desugared generator constructor",
   "keywords": [
     "generator",
