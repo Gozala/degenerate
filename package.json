@@ -1,0 +1,54 @@
+{
+  "name": "degenerator",
+  "id": "degenerator",
+  "version": "0.0.1",
+  "description": "Desugared generator constructor",
+  "keywords": [
+    "generator",
+    "yield",
+    "coroutine",
+    "desugaring",
+    "ES6",
+    "ES5"
+  ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/degenerator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/degenerator.git",
+    "web": "https://github.com/Gozala/degenerator"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/degenerator/issues/"
+  },
+  "devDependencies": {
+    "tape": "~0.1.5",
+    "tap": "~0.4.8"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/9..latest",
+      "chrome/25..latest",
+      "firefox/20..latest",
+      "safari/5.1..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Gozala/degenerator/License.md"
+    }
+  ],
+  "dependencies": {
+    "regenerator": "^0.4.6"
+  }
+}
