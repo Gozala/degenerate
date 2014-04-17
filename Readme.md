@@ -1,8 +1,8 @@
-# degenerator
+# degenerate
 
-[![Build Status](https://secure.travis-ci.org/Gozala/degenerator.svg)](http://travis-ci.org/Gozala/degenerator)
+[![Build Status](https://secure.travis-ci.org/Gozala/degenerate.svg)](http://travis-ci.org/Gozala/degenerate)
 
-[![Browser support](https://ci.testling.com/Gozala/degenerator.png)](http://ci.testling.com/Gozala/degenerator)
+[![Browser support](https://ci.testling.com/Gozala/degenerate.png)](http://ci.testling.com/Gozala/degenerate)
 
 
 Library lets you create [ES6 generators][generators] with in the (dis)comfort of ES5 JS environment (like < node@0.11.x) and without syntax sugar. This magic happens at the cost of the syntax transformations at the generator instantiation. You can use this with [task.js][], [co][], [suspend][] or any other Generator-based flow control based library without waiting on your favorite JS environment to enable generators for you!
@@ -33,10 +33,10 @@ while (step = digits.next(), !step.done) {
 
 Unfortunately above code will throw a syntax error in engines that don't have generators support.
 
-With a degenerator you can create equivalent range generator by typeing this:
+With a degenerate you can create equivalent range generator by typeing this:
 
 ```js
-var Generator = require("degenerator")
+var Generator = require("degenerate")
 var range = new Generator(function(from, to, step) {
   step = step || 1
   var n = from
@@ -108,7 +108,7 @@ This is the most unfortunate limitation of all! You can not enclose any scope va
 
 ## Install
 
-    npm install degenerator
+    npm install degenerate
 
 
 [generators]:http://wiki.ecmascript.org/doku.php?id=harmony:generators
